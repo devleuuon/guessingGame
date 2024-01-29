@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+.hide {
+    display: none;
+}
+
+body {
+    font-size: 1.6rem;
+    background-image: url(./images/game.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 22.4rem;
+}
+
+.game-items {
+    width: 43.0rem;
+    height: 28.4rem;
+    padding: 6.4rem;
+    background: rgb(248, 245, 245);
+    border-radius: 1.6rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 1.6rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 4.8rem;
+    opacity: 0.7;
+}
+
+.game-info {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    display: none;
+}
+
+input {
+    width: 4.3rem;
+    padding: 0 1rem;
+    background: #DCE2E9;
+    border: none;
+    border-radius: .4rem 0 0 .4rem;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+  
+input:valid {
+    border: 2px solid black;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+button {
+    width: 8.2rem;
+    height: 5.3rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 .4rem .4rem 0;
+    background: #7879F1;
+    color: white;
+    font-weight: 700;
+}
+
+/*screen-two*/
+
+.screenTwo h1 {
+    margin-bottom: 3.3rem;
+}
+
+.screenTwo button {
+    width: 16.6rem;
+    border-radius: 4rem;
+}
